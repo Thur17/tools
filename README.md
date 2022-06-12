@@ -21,7 +21,7 @@ git clone https://github.com/Thur17/tools.gitexi
 
 3. Aplique a configuração
 ```bash
-ansible-playbook tools/Xubuntu.yml --ask-become-pass
+ansible-playbook tools/xubuntu.yml --ask-become-pass
 ```
 >Digite sua senha quando solicitado a dar permissões de root para algumas ações.
 ___
