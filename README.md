@@ -3,7 +3,7 @@
 Este repositório contém scripts para automatizar e acelerar o fluxo de trabalho e preparação para minha máquina.
 
 > **_Isenção de responsabilidade_**:
-> Esses scripts são relacionados ao Ubuntu com a versão principal 18+, para outras distribuições você precisará adaptá-lo
+> Esses scripts são relacionados ao Ubuntu com a versão principal 18, para outras distribuições você precisará adaptá-lo
 ___
 
 ## Preparar estação de trabalho
