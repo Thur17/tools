@@ -109,7 +109,8 @@
         become: true
         apt:
           name: obs-studio
-     - block:
+    
+    - block:
       - name: Install grub customizer
         become: true
         apt_repository:
