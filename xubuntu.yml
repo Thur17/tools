@@ -107,8 +107,4 @@
       - name: Install obs Studio
         become: true
         apt:
-          name: obs-studio
-   
-
-    
-    
+          name: obs-studio 
