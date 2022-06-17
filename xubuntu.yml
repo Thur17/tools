@@ -117,4 +117,4 @@
       - name: Install grub-customizer
         become: true
         apt:
-          name: grub-custommizer
+          name: grub-customizer
