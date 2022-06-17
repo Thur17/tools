@@ -22,8 +22,7 @@
           - tilix
           - virtualbox
           - vlc
-         
-
+          
     - block:
       - name: Verify if Oh-My-zsh is installed
         command: test -d /home/{{ ansible_user_id }}/.oh-my-zsh
