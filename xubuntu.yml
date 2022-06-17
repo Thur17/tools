@@ -98,8 +98,6 @@
                        
 # OPTIONAL:
 #  - OBS-STUDIO - Screen Recorder and Casting Software 
-#  - Grub Customizer
-#  - Deluge - Deluge is a lightweight, Free Software, cross-platform BitTorrent client.
 
     - block:
       - name: Install obsproject Ubuntu Repo
@@ -111,23 +109,5 @@
         apt:
           name: obs-studio
           
-    - block:
-      - name: Install grub customizer
-        become: true
-        apt_repository:
-          repo: 'ppa:danielrichter2007/grub-customizer'
-      - name: Install grub-customizer
-        become: true
-        apt:
-          name: grub-customizer
-   
-    - block:
-      - name: Delugue 
-        become: true
-        apt_repository:
-          repo: 'ppa:deluge-team/stable'
-      - name: install deluge
-        become: true
-        apt:
-          name: Delugue
+
 
