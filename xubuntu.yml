@@ -16,7 +16,6 @@
           - git
           - apt-transport-https
           - gnupg-agent
-          - zsh
           - flameshot
           - fonts-hack
           - tilix
